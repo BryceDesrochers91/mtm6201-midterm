@@ -1,9 +1,12 @@
+/*displays background color and uses display of flex*/
 body {
     background-color: #FF7AAA;
+    display: flex;
 }
 
+
 .logo {
-    width: 10px;
-    height: 10px;
+    width: 1px;
+    height: 1px;
     padding: 1rem;
 }
