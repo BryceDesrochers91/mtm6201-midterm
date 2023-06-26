@@ -5,7 +5,7 @@ body {
 }
 
 
-.titleOfWebsite {
+.titleOfWebsite:active {
     font-family: Arial, Helvetica, sans-serif ;
     transform: rotateY(3turn);
     transition: transform 1.5s;
