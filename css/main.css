@@ -1,3 +1,6 @@
+.wrapper {
+    margin: 1rem;
+}
 /*displays background color and uses display of flex*/
 body {
     background-color: #FF7AAA;
