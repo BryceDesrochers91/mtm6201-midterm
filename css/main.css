@@ -4,15 +4,16 @@ body {
     display: flex;
 }
 
+/*makes the title of the website rotate 3 times when hovered over*/
 .titleOfWebsite:hover {
     transform: rotateY(3turn);
     transition: transform 2.5s;
   
 }
 
-
+/*gets accessibility font families and scales the title when clicked on*/
 .titleOfWebsite:active {
     font-family: Arial, Helvetica, sans-serif ;
     transform: scale(1.5, 2);
-    float: right;
+    
 }
