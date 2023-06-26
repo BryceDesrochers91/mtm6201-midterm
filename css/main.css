@@ -2,6 +2,7 @@
 body {
     background-color: #FF7AAA;
     display: flex;
+    flex-wrap: wrap;
 }
 
 /*makes the title of the website rotate 3 times when hovered over*/
