@@ -21,7 +21,10 @@ body {
     transform: scale(.5, .5);
 }
 
-nav {
-    list-style: none;
-    color: white;
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: forestgreen;
 }
