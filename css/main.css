@@ -23,13 +23,14 @@ body {
 
 nav ul  {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	text-align: center;
-    background-color: chocolate;
+    text-decoration: none;
+    
 }
 
 nav ul li:hover {
-	background-color: forestgreen;
+	color: forestgreen;
 }
 
 a {
