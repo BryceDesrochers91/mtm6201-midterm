@@ -21,7 +21,7 @@ body {
     transform: scale(.5, .5);
 }
 
-nav ul  {
+nav ul li  {
 	display: flex;
 	flex-direction: row;
 	text-align: center;
