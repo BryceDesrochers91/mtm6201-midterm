@@ -22,11 +22,9 @@ body {
 }
 
 nav ul li  {
-	display: flex;
-	flex-direction: row;
-	text-align: center;
-    list-style-type: none;
-    padding: 4 rem;
+	width: 33%;
+    float: left;
+    padding: 20px 0;
     
 }
 
