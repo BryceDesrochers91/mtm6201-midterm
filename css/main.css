@@ -26,7 +26,8 @@ nav ul li  {
     float: left;
     list-style-type: none;
     padding: 20px 0;
-    font-size: 18px;    
+    font-size: 18px;
+    justify-content: center;
 }
 
 nav ul li:hover {
