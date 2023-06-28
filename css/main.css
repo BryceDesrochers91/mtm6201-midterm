@@ -34,5 +34,7 @@ nav ul li:hover {
 	color: forestgreen;
 }
 
-
-
+.socialMedia img {
+    display: flex;
+    flex-direction: row;
+}
