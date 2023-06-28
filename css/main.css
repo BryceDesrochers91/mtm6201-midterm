@@ -22,6 +22,8 @@ body {
 }
 
 nav ul li  {
+    display: flex;
+    flex-direction: row;
 	width: 33%;
     float: left;
     list-style-type: none;
