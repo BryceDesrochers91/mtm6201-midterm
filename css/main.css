@@ -23,7 +23,7 @@ body {
 
 nav ul li  {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	text-align: center;
     list-style-type: none;
     padding: 4 rem;
