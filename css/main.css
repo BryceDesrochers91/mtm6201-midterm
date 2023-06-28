@@ -39,4 +39,5 @@ nav ul li:hover {
     flex-direction: row;
     float: left;
     justify-content: center;
+    padding: 5px 0;
 }
