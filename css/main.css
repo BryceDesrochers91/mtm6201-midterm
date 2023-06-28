@@ -37,4 +37,6 @@ nav ul li:hover {
 .socialMedia img {
     display: flex;
     flex-direction: row;
+    float: left;
+    justify-content: center;
 }
