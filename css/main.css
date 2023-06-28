@@ -10,7 +10,7 @@ body {
 
 /*makes the title of the website rotate 3 times when hovered over*/
 .titleOfWebsite:hover {
-    transform: rotateY(3turn);
+    transform: rotateY(1turn);
     transition: transform 2.5s;
   
 }
