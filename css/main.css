@@ -25,6 +25,7 @@ nav ul  {
 	display: flex;
 	flex-direction: row;
 	text-align: center;
+    list-style-type: none;
     text-decoration: none;
     padding: 4 rem;
     
