@@ -3,7 +3,7 @@
 }
 /*displays background color and uses display of flex*/
 body {
-    background-color: lightpink;
+    background-color: #FF7AAA;
     display: flex;
 }
 
@@ -40,4 +40,5 @@ nav ul li:hover {
     float: left;
     justify-content: center;
     padding: 5px 0;
+
 }
