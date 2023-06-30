@@ -1,9 +1,45 @@
+html,body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 100%;
+    background-color: #eaeaea;
+  }
+  
+  .bar {
+    width: 20px;
+    height: 100px;
+    margin: 0 2px;
+  }
+  
+  @keyframes wave {
+    0%, 50%, 100% { 
+      background-color: orange; 
+      transform: scale(1);
+    }
+    25% {
+      background-color: yellow;
+      transform: scale(1, 2);
+    }
+    75% {
+      background-color: red;
+      transform: scale(1, 0.5);
+    }
+  }
+  
+  .wave {
+    animation-name: wave;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
 .wrapper {
     margin: 1rem;
 }
 /*displays background color and uses display of flex*/
 body {
-    background-color: #FF7AAA;
+    background-color: lightpink;
     display: flex;
 }
 
@@ -41,4 +77,3 @@ nav ul li:hover {
     justify-content: center;
     padding: 5px 0;
 }
-
