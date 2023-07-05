@@ -1,10 +1,11 @@
+/*this keeps content away from border of the webpage*/
+
 .wrapper {
     margin: 1rem;
 }
 /*displays background color and uses display of flex*/
 body {
-    background-color: #FF7AAA;
-    /* display: flex; */
+    background-color: #FF7AAA;    
 }
 
 /*makes the title of the website rotate 3 times when hovered over*/
@@ -19,25 +20,26 @@ body {
     transform: scale(.5, .5);
 }
 
+/*gives navigation list a display of flex and sets no bullet points before each link*/
 nav ul li  {
     display: flex;
     flex-direction: row;
-	width: 33%;
-    
+	width: 33%;    
     list-style-type: none;
     padding: 20px 0;
     font-size: 18px;
     justify-content: center;
 }
 
+/*tells computers that when the user hovers over the links to change the color to forestgreen*/
 nav ul li:hover {
 	color: forestgreen;
 }
 
+/*puts social media logos in a line*/
 .socialMedia img {
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;    
     justify-content: center;
     padding: 5px 0;
 
