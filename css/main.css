@@ -4,7 +4,7 @@
 /*displays background color and uses display of flex*/
 body {
     background-color: #FF7AAA;
-    display: flex;
+    /* display: flex; */
 }
 
 /*makes the title of the website rotate 3 times when hovered over*/
@@ -23,7 +23,7 @@ nav ul li  {
     display: flex;
     flex-direction: row;
 	width: 33%;
-    float: left;
+    
     list-style-type: none;
     padding: 20px 0;
     font-size: 18px;
@@ -37,7 +37,7 @@ nav ul li:hover {
 .socialMedia img {
     display: flex;
     flex-direction: row;
-    float: left;
+    
     justify-content: center;
     padding: 5px 0;
 
