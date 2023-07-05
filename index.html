@@ -16,14 +16,16 @@
    <div class="wrapper">
    <!--displays intro title of the website on the screen-->
    <div class="titleOfWebsite">
-    <h1>Welcome to Tea and Biscuits</h1>
+    <h1 role="header">Welcome to Tea and Biscuits</h1>
    </div>
    <!---->
    <nav role="navigation">
-      <ul>
+      <ul itemscope itemtype="https://schema.org/Thing">
+      <ul itemscope itemtype="https://schema.org/Person">
           <li class="home"><a class="link--underline" href= "index.html">Home</a></li>
-         <li><a class="link--underline" href= "about.html">About</a></li>
-         <li><a class="link--underline" href= "contact.html">Contact</a></li>
+         <li itemprop="about"><a class="link--underline" href= "about.html">About</a></li>
+         <li itemprop="contactPoint"><a class="link--underline" href= "contact.html">Contact</a></li>
+      </ul>
       </ul>
     </nav>
    <section>
